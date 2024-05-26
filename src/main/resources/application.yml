@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: @spring.profiles.active@
+    application:
+        title: marvel-api-rest
+        description: Marvel API app for managing characters, comics, creators, events, series and stories
+        version: 1.0.0
+        author: Starling Diaz
+        email:  starlingdiaz70@gmail.com

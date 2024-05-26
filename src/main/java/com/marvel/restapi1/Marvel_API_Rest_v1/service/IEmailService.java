@@ -1,0 +1,15 @@
+/**
+ * @author Starling Diaz on 5/25/2024.
+ * @Academy mentorly
+ * @version marvel-api-rest 1.0
+ * @since 5/25/2024.
+ */
+package com.marvel.restapi1.Marvel_API_Rest_v1.service;
+
+import com.marvel.restapi1.Marvel_API_Rest_v1.constants.EmailTemplateName;
+import jakarta.mail.MessagingException;
+
+public interface IEmailService {
+
+    void sendEmail(String to, String username, EmailTemplateName emailTemplate, String ConfirmationUrl, String activationConde, String subject) throws MessagingException;
+}

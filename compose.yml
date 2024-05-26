@@ -1,0 +1,15 @@
+services:
+  mail-dev:
+    container_name: mail-dev
+    image: maildev/maildev
+    ports:
+      - "1080:1080"
+      - "1025:1025"
+    networks:
+      - mail-bank-network
+    restart: unless-stopped
+networks:
+  bank-network:
+    driver: bridge
+  mail-bank-network:
+    driver: bridge
