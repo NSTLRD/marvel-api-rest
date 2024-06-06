@@ -24,4 +24,6 @@ public class UserResponseDto {
     private String token;
     private boolean isActive;
 
+    public UserResponseDto(User user) {
+    }
 }

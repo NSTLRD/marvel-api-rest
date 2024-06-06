@@ -26,6 +26,7 @@ import com.marvel.restapi1.Marvel_API_Rest_v1.repository.UserRepository;
 import com.marvel.restapi1.Marvel_API_Rest_v1.security.JwtTokenProvider;
 import com.marvel.restapi1.Marvel_API_Rest_v1.service.IUserService;
 import jakarta.mail.MessagingException;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
